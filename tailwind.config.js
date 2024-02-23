@@ -3,7 +3,14 @@ export default {
   content: ["./index.html",
   "./src/**/*.{js,ts,jsx,tsx}",],
   theme: {
-    extend: {},
+    extend: {
+    },
+  },
+  variants: {
+    extend: {
+      translate: ['group-hover'],
+      // Add other variants as needed
+    },
   },
   plugins: [],
 }
