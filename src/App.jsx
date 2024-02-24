@@ -5,6 +5,7 @@ import MainSection from './components/mainsection'
 import './App.css'
 import ReviewSection from './components/reviewsection'
 import SimplifySection from './components/simplify'
+import FooterSection from './components/footersection'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
     </main>
     <section>
        <SimplifySection/>
+       <FooterSection/>
     </section>
     </>
   )
