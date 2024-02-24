@@ -53,7 +53,7 @@ function ReviewSection(){
                 {carouselItems.map((item, index) => (
                 <div key={index} className='review-img-div flex-col text-center items-center'>
                     <img className='relative m-auto' src={item.image}/>
-                    <h3 className='font-bold mt-8'>{item.name}</h3>
+                    <h3 className='font-bold m-auto mt-8'>{item.name}</h3>
                     <p>{item.feedback}</p>
                 </div>
                 ))}

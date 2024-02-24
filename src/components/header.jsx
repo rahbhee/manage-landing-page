@@ -21,7 +21,7 @@ function Header(){
             <img src={Logo}/>
             {windowWidth <=768 ? <Hamburger/> :
             <>
-             <div className='flex text-sm items-center justify-between'>
+             <div className='flex text-sm md:text-base lg:text-sm items-center justify-between'>
                 <p className='ml-4 mr-4'>Pricing</p>
                 <p className='ml-4 mr-4'>Product</p>
                 <p className='ml-4 mr-4'>About Us</p>
